@@ -1,4 +1,18 @@
 {
+  "name": "soft-light-canvas",
+  "version": "1.0.0",
+  "description": "a canvas art / wallpaper of pixels changing color slowly over time",
+  "keywords": [],
+  "author": "Beeno Tung <aabbcc1241@yahoo.com.hk> (https://beeno-tung.surge.sh)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/soft-light-canvas.git"
+  },
+  "homepage": "https://github.com/beenotung/soft-light-canvas#readme",
+  "bugs": {
+    "url": "https://github.com/beenotung/soft-light-canvas/issues"
+  },
   "scripts": {
     "upload": "npm run build && npm run surge",
     "surge": "surge build https://soft-light-canvas.surge.sh",
